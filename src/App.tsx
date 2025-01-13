@@ -9,7 +9,7 @@ function App() {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80')] bg-cover bg-center"></div>
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container relative z-10 text-white">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">DD WEB</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">DD WEB Software</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl">Transformăm idei în soluții digitale inovatoare pentru viitorul afacerii tale</p>
           <a href="#contact" className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg text-lg font-semibold transition-colors">
             Contactează-ne <ArrowRight size={20} />
@@ -27,7 +27,7 @@ function App() {
             <div className="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
               <Building2 className="w-12 h-12 text-blue-600 mb-4" />
               <h3 className="text-xl font-bold mb-2">Dezvoltare Software</h3>
-              <p className="text-gray-600">Aplicații web și mobile personalizate pentru nevoile specifice ale afacerii tale</p>
+              <p className="text-gray-600">Aplicații web personalizate pentru nevoile specifice ale afacerii tale</p>
             </div>
             <div className="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
               <Briefcase className="w-12 h-12 text-blue-600 mb-4" />
@@ -57,7 +57,7 @@ function App() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Despre Companie</h2>
               <p className="text-gray-600 mb-6">
-                Cu peste 10 ani de experiență în industria IT, TechSolutions România este partenerul de încredere pentru 
+                Cu peste 10 ani de experiență în industria IT, DD Web Soft România este partenerul de încredere pentru 
                 companiile care doresc să își accelereze creșterea prin intermediul tehnologiei.
               </p>
             </div>
@@ -80,8 +80,8 @@ function App() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Platformă E-commerce</h3>
-                  <p className="text-gray-200">Sistem complet de comerț electronic pentru un retailer național</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Website Web responsive</h3>
+                  <p className="text-gray-200">Prin tehnicile de adaptare folosite, site-ul dumneavoastra se va redimensiona automat, incadrandu-se perfect pe dimensiunea ecranului dispozitivului folosit.</p>
                 </div>
               </div>
             </div>
@@ -93,8 +93,8 @@ function App() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Sistem CRM</h3>
-                  <p className="text-gray-200">Soluție personalizată de management al relațiilor cu clienții</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Platformă E-commerce cu DotCMS</h3>
+                  <p className="text-gray-200">Sistem complet de comerț electronic pentru un retailer național</p>
                 </div>
               </div>
             </div>
@@ -106,8 +106,8 @@ function App() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6">
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2">Aplicație Mobilă</h3>
-                  <p className="text-gray-200">Aplicație de management pentru o companie de logistică</p>
+                  <h3 className="text-xl font-bold text-white mb-2">Design personalizat si optimizare SEO</h3>
+                  <p className="text-gray-200">Designul personalizat și funcțiile cheie sunt importante pentru a crea o aplicație sau un site web care să fie atractiv și folositor pentru utilizatori. </p>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm">
               <Trophy className="w-12 h-12 text-yellow-500 mb-4" />
-              <p className="text-gray-600 mb-4">"Colaborarea cu TechSolutions a transformat complet procesele noastre digitale. Echipa lor este extrem de profesionistă și dedicată."</p>
+              <p className="text-gray-600 mb-4">"Colaborarea cu DDWeb a transformat complet procesele noastre digitale. Echipa lor este extrem de profesionistă și dedicată."</p>
               <div className="font-bold">Maria Popescu</div>
               <div className="text-gray-500">Director General, Retail Plus</div>
             </div>
@@ -151,11 +151,11 @@ function App() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="w-6 h-6 text-blue-600" />
-                  <span>contact@techsolutions.ro</span>
+                  <span>contact@ddweb.ro</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <MapPin className="w-6 h-6 text-blue-600" />
-                  <span>Strada Victoriei 123, București</span>
+                  <span>Strada Neagoe Voda nr. 55, Bacau</span>
                 </div>
               </div>
             </div>
@@ -197,7 +197,7 @@ function App() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">TechSolutions</h3>
+              <h3 className="text-xl font-bold mb-4">DD Web</h3>
               <p className="text-gray-400">Transformăm viitorul digital al afacerilor</p>
             </div>
             <div>
@@ -228,7 +228,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>© 2024 TechSolutions România. Toate drepturile rezervate.</p>
+            <p>© 2025 DD Web România. Toate drepturile rezervate.</p>
           </div>
         </div>
       </footer>
