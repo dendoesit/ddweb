@@ -2,19 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DD Web Software Solutions</title>
+    <title>DD Web — Software Development, SaaS, Cloud, AI & IoT</title>
+    <meta name="description" content="DD Web builds software products: SaaS platforms, cloud applications, AI automation and IoT solutions. A Bucharest team with experience at The Telegraph, Hedvig, Vodafone and Superbet." />
+    <meta name="keywords" content="software development, SaaS, cloud, AI, IoT, GovTech, software studio Romania, dezvoltare software București, aplicații web, DD Web" />
+    <meta name="theme-color" content="#07080c" />
+    <link rel="canonical" href="https://ddweb.ro/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ddweb.ro/" />
+    <meta property="og:title" content="DD Web — software that scales" />
+    <meta property="og:description" content="SaaS, cloud, AI and IoT products, built by a team that has shipped for The Telegraph, Hedvig, Vodafone and Superbet." />
+    <meta property="og:image" content="https://ddweb.ro/og.jpg" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="ro_RO" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJ01GDYBPE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TJ01GDYBPE');
+    </script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="94bdfe79-fda1-4672-8779-83c380e51863"></script>
+    <script>
+      document.addEventListener('click', function (e) {
+        var a = e.target.closest('a[href]');
+        if (!a || !window.umami) return;
+        var href = a.getAttribute('href');
+        var kind = href.indexOf('mailto:') === 0 ? 'email'
+          : /^https?:/.test(href) && a.host !== location.host ? 'portofoliu'
+          : /investors|contact/.test(href) ? 'buton'
+          : null;
+        if (!kind) return;
+        var label = (a.getAttribute('aria-label') || a.textContent).trim().replace(/\s+/g, ' ').slice(0, 60);
+        window.umami.track('ddweb-' + kind, { pagina: location.pathname, buton: label, limba: document.documentElement.lang });
+      });
+    </script>
   </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJ01GDYBPE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TJ01GDYBPE');
-</script>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
